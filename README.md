@@ -1,42 +1,39 @@
 # Clustering
 
-### ¿Qué es el clustering? 
+### What is clustering?
 
-Es la tarea de agrupar objetos por similitud, en grupos o conjuntos de manera que los miembros del mismo grupo tengan características similares. 
+It is the task of grouping objects by similarity, into groups or sets so that members of the same group have similar characteristics.
 
 ![clustering_and_k_means_machine_learning](https://user-images.githubusercontent.com/63415652/104877374-4ddb2d80-591f-11eb-9bc7-c35b1cdd9467.png)
 
-### ¿En que consiste nuestro dataset? 
+### What does our dataset consist of?
 
-El dataset consiste en una comparación de varios caramelos según varias de sus propiedades. 
+The dataset consists of a comparison of various candies based on various of their properties.
 
->**_Nota:_** En este readme sólo se mostrarán los resultados, para más detalles ver el código el la carpeta code de este repo.
+>**_Note:_** In this readme only the results will be shown, for more details see the code in the code folder of this repo.
 
 --- 
  
-Para el primer caso se asumió que si sabemos cuántos grupos queremos crear para nuestro resultado final. Vamos a implementar clustering, utilizando 2 algoritmos, Batch K-Means y Mean-Shift. 
+For the first case it was assumed that if we know how many groups we want to create for our final result. We are going to implement clustering, using 2 algorithms, Batch K-Means and Mean-Shift.
  
  
 ### Batch K-Means 
- 
- Veremos la implementación en código, asignando cuantas categorías serán:
+
+We will see the implementation in code, assigning how many categories will be:
  
  ![20](https://user-images.githubusercontent.com/63415652/103444382-72e85480-4c2d-11eb-8e7f-adb190e8ac4a.PNG)
  
- Podemos ver en los resultados, que de la misma tabla del dataset, ahora tenemos una nueva columna que nos dice en cuál de los clusters o grupos quedó finalmente clasificados. 
+We can see in the results that from the same table of the dataset, we now have a new column that tells us in which of the clusters or groups it was finally classified.
  
- >**_Conclusión:_** ¿Qué significa eso? Significa que por ejemplo el caramelo 100 Grand que está en el grupo 1 y el caramelo 3 Musketeers que igual está en el grupo 1, se parecen más entre sí, por ejemplo estos 2 que están en el grupo 1, a otro que está en el grupo 3. 
+ >**_Conclusion:_** What does that mean? It means that for example the 100 Grand candy that is in group 1 and the 3 Musketeers candy that is still in group 1, are more similar to each other, for example these 2 that are in group 1, to another that is in the Group 3.
  
 ### Mean-Shift
  
-Ahora el contrario, ya que el anterior asignamos nosotros las categorías, y ahora dejaremos que el algoritmo decida cuántas categorías serán, con la restricción de que deben de ser una cantidad moderada de datos: 
+Now the opposite, since the previous one we assigned the categories, and now we will let the algorithm decide how many categories there will be, with the restriction that they must be a moderate amount of data:
  
 ![21](https://user-images.githubusercontent.com/63415652/103444599-4df4e100-4c2f-11eb-9d02-7b5e3daae2b9.PNG)
  
-Los resultados no deben de ser 100% equivalentes, tendrán diferencias y serán notables. 
+The results should not be 100% equivalent, they will have differences and will be notable.
  
- >**_Conclusión:_** Utilizando Mean-Shift como algoritmo y sin establecer la cantidad de clústeres o grupos, el algoritmo decidió que lo correcto sería solo crear 3 en vez de 4 como paso con Batch K-Means. Esta cuestión es bastante cuestionable, todo depende en el contexto para que sea verdaderamente útil nuestros análisis.
-
-
-
-
+ >**_Conclusion:_** Using Mean-Shift as algorithm and without establishing the number of clusters or groups, the algorithm decided that the correct thing would be to only create 3 instead of 4 as a step with Batch K-Means. This question is quite questionable, it all depends on the context for our analysis to be truly useful.
+ 
