@@ -1,16 +1,16 @@
 # Clustering
 
-### What is clustering?
-
-It is the task of grouping objects by similarity, into groups or sets so that members of the same group have similar characteristics.
-
-![clustering_and_k_means_machine_learning](https://user-images.githubusercontent.com/63415652/104877374-4ddb2d80-591f-11eb-9bc7-c35b1cdd9467.png)
-
 ### What does our dataset consist of?
 
 The dataset consists of a comparison of various candies based on various of their properties.
 
 >**_Note:_** In this readme only the results will be shown, for more details see the code in the code folder of this repo.
+
+### What is clustering?
+
+It is the task of grouping objects by similarity, into groups or sets so that members of the same group have similar characteristics.
+
+![clustering_and_k_means_machine_learning](https://user-images.githubusercontent.com/63415652/104877374-4ddb2d80-591f-11eb-9bc7-c35b1cdd9467.png)
 
 --- 
  
@@ -37,3 +37,12 @@ The results should not be 100% equivalent, they will have differences and will b
  
  >**_Conclusion:_** Using Mean-Shift as algorithm and without establishing the number of clusters or groups, the algorithm decided that the correct thing would be to only create 3 instead of 4 as a step with Batch K-Means. This question is quite questionable, it all depends on the context for our analysis to be truly useful.
  
+ ## Data source: [The Ultimate Halloween Candy Power Ranking](https://www.kaggle.com/fivethirtyeight/the-ultimate-halloween-candy-power-ranking) 
+
+Although the code is not proprietary and is free to use, the data is licensed, please read it before using this data.
+This project is not for commercial purposes, it is for academic purposes only.
+
+## You can check the main notebook in my kaggle profile and if you like, my other contributions too:
+
+* [The Ultimate Halloween Candy Power Ranking Notebook](https://www.kaggle.com/dataengel/the-ultimate-halloween-candy-power-ranking) 
+
