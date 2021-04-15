@@ -42,7 +42,7 @@ The results should not be 100% equivalent, they will have differences and will b
 Although the code is not proprietary and is free to use, the data is licensed, please read it before using this data.
 This project is not for commercial purposes, it is for academic purposes only.
 
-## You can check the main notebook in my kaggle profile and if you like, my other contributions too:
+## You can check the main notebook in my kaggle profile and if you like, my other contributions too: 
 
 * [The Ultimate Halloween Candy Power Ranking Notebook](https://www.kaggle.com/dataengel/the-ultimate-halloween-candy-power-ranking) 
 
